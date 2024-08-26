@@ -1,0 +1,6 @@
+          |00| JMP seguir
+   seguir |02| SET R0 , 0x01
+          |04| SET R1 , 0xFF
+siguiente |06| ADD R0 , R1
+  limpiar |08| CLEAR_C
+          |0a| CLEAR_Z

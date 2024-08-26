@@ -1,0 +1,7 @@
+        |00| JMP setear
+ setear |02| SET_C
+        |04| SET_Z
+        |06| SET_N
+limpiar |08| CLEAR_C
+        |0a| CLEAR_Z
+        |0c| CLEAR_N
